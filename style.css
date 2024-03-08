@@ -237,3 +237,6 @@ span {
   height: 200px;
   width: 68%;
 }
+@media (max-width:800px){
+.sidebar{display:none}
+}

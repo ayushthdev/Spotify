@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  color: white;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.sidebar {
+  background-color: rgb(0, 0, 0);
+  width: 28%;
+  height: 601px;
+}
+.main {
+  background-color: green;
+  border-radius: 10px;
+  flex: 1;
+  margin: 7px;
+  height: 630px;
+  background-color: #121212;
+  padding: 0 15px;
+  overflow: auto;
+}
+
+.player {
+  background-color: crimson;
+  width: 100%;
+  height: 72px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #000000;
+}
+.option {
+  height: 17%;
+  margin: 7px;
+  background-color: #121212;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+.lib {
+  height: 83%;
+  background-color: #121212;
+  margin: 7px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.box {
+  background-color: #242424;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  line-height: 3;
+  padding: 16px 20px 16px 20px;
+}
+button {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  border: none;
+  cursor: pointer;
+}
+p {
+  line-height: 1;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+}
+.sel {
+  display: flex;
+  padding: 15px;
+}
+.sel i {
+  margin-right: 20px;
+}
+.libhead {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.h img {
+  height: 20px;
+  margin-right: 15px;
+}
+.h {
+  display: flex;
+}
+.icn {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+.icn i {
+  margin-left: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  width: 69%;
+  padding: 10px;
+
+  background-color: #121212;
+}
+
+.header .rhs button,
+i {
+  margin: 0 10px 0 0;
+}
+@media (max-width: 1000px) {
+  .hide,
+  .fa-arrow-right {
+    display: none;
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 188px;
+  height: 269px;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.card img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.black {
+  background-color: #121212;
+  height: 80px;
+  width: 72%;
+}
+.ch {
+  margin-left: 5px;
+}
+.controls2 img {
+  height: 14px;
+  margin-right: 20px;
+}
+.controls2 .img {
+  align-self: center;
+  justify-self: baseline;
+}
+.player {
+  display: flex;
+  padding: 10px 10px 0 10px;
+}
+.controls1 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.controls2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.controls3 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.mg {
+  margin: 10px 0 10px 0;
+}
+input {
+  appearance: none;
+  background-color: #1ed760;
+  height: 5px;
+  border-radius: 10px;
+  width: 400px;
+}
+input::-webkit-slider-thumb {
+  appearance: none;
+  border-radius: 50%;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+span {
+  font-size: 10px;
+}
+.like {
+  width: 18px;
+  height: 18px;
+}
+.controls1 img,
+.artist {
+  margin-right: 10px;
+}
+.artist p {
+  font-size: 10px;
+  opacity: 0.7;
+}
+.controls3 img {
+  height: 36px;
+  margin-right: 10px;
+}
+.vol {
+  appearance: none;
+  background-color: #1ed760;
+  height: 5px;
+  border-radius: 10px;
+  width: 100px;
+}
+.vol::-webkit-slider-thumb {
+  appearance: none;
+  border-radius: 50%;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+.blank {
+  height: 200px;
+  width: 68%;
+}
